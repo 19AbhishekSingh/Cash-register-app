@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cash Register App</title>
+  </head>
+  <body>
+    <header class="header-container">
+        <h1>Cash Register</h1>
+    </header>
+    <h2 class="description">
+        Enter the bill amount and cash given by customer.
+    </h2>
+    <div class="container">
+      <h5 class="input-headings">Bill amount:</h5>
+      <label for="bill-amount" class="label"></label>
+      <input id="bill-amount" class="input" />
+      <h5 class="input-headings">Cash given:</h5>
+      <label for="cash-given" class="label"></label>
+      <input id="cash-given" class="input" />
+      <button id="button">Check</button>
+      <p id="error"></p>
+      <table class="table">
+        <h3 class="return">You Will Get:</h3>
+        <tr>
+          <th>No. of Notes</th>
+          <td class="number-of-notes"></td>
+          <td class="number-of-notes"></td>
+          <td class="number-of-notes"></td>
+          <td class="number-of-notes"></td>
+          <td class="number-of-notes"></td>
+          <td class="number-of-notes"></td>
+          <td class="number-of-notes"></td>
+        </tr>
+        <tr>
+          <th>Note</th>
+          <td>2000</td>
+          <td>500</td>
+          <td>100</td>
+          <td>20</td>
+          <td>10</td>
+          <td>5</td>
+          <td>1</td>
+        </tr>
+      </table>
+    </div>
+    <footer class="footer-container">
+        <h2>Connect with me</h2>
+        <div class="social-container">
+            <a target="blank" href="https://twitter.com/abhitwts"
+                ><img src="images/twitter-icon.svg" alt="" class="image-size"
+            /></a>
+            <a
+                target="_blank"
+                href="https://www.linkedin.com/in/abhishek-singh-96b55b239"
+                ><img src="images/linkedin -lcon.svg" alt="" class="image-size"
+            /></a>
+            <a target="_blank" href="https://github.com/19AbhishekSingh"
+                ><img src="images/github.svg" alt="" class="image-size"
+            /></a>
+        </div>
+    </footer>
+  </body>
+  <script src="app.js"></script>
+</html>
